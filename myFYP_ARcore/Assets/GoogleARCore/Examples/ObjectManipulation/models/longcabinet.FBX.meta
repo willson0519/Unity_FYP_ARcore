@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 2a6891cf569a6e040855ad176bf20abc
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Back
+    100002: Base
+    100004: door1
+    100006: door2
+    100008: door3
+    100010: door4
+    100012: handle003
+    100014: handle006
+    100016: handle007
+    100018: handle1
+    100020: handlebase
+    100022: handlebase001
+    100024: handlebase002
+    100026: handlebase003
+    100028: Left
+    100030: //RootNode
+    100032: middle
+    100034: plane
+    100036: plane001
+    100038: plane002
+    100040: plane003
+    100042: Right
+    100044: tableTop
+    400000: Back
+    400002: Base
+    400004: door1
+    400006: door2
+    400008: door3
+    400010: door4
+    400012: handle003
+    400014: handle006
+    400016: handle007
+    400018: handle1
+    400020: handlebase
+    400022: handlebase001
+    400024: handlebase002
+    400026: handlebase003
+    400028: Left
+    400030: //RootNode
+    400032: middle
+    400034: plane
+    400036: plane001
+    400038: plane002
+    400040: plane003
+    400042: Right
+    400044: tableTop
+    2100000: 01 - Default
+    2100002: 02 - Default
+    2100004: No Name
+    2300000: Back
+    2300002: Base
+    2300004: door1
+    2300006: door2
+    2300008: door3
+    2300010: door4
+    2300012: handle003
+    2300014: handle006
+    2300016: handle007
+    2300018: handle1
+    2300020: handlebase
+    2300022: handlebase001
+    2300024: handlebase002
+    2300026: handlebase003
+    2300028: Left
+    2300030: middle
+    2300032: plane
+    2300034: plane001
+    2300036: plane002
+    2300038: plane003
+    2300040: Right
+    2300042: tableTop
+    3300000: Back
+    3300002: Base
+    3300004: door1
+    3300006: door2
+    3300008: door3
+    3300010: door4
+    3300012: handle003
+    3300014: handle006
+    3300016: handle007
+    3300018: handle1
+    3300020: handlebase
+    3300022: handlebase001
+    3300024: handlebase002
+    3300026: handlebase003
+    3300028: Left
+    3300030: middle
+    3300032: plane
+    3300034: plane001
+    3300036: plane002
+    3300038: plane003
+    3300040: Right
+    3300042: tableTop
+    4300000: tableTop
+    4300002: Right
+    4300004: plane003
+    4300006: plane002
+    4300008: plane001
+    4300010: plane
+    4300012: middle
+    4300014: Left
+    4300016: handlebase003
+    4300018: handlebase002
+    4300020: handlebase001
+    4300022: handlebase
+    4300024: handle007
+    4300026: handle006
+    4300028: handle003
+    4300030: handle1
+    4300032: door4
+    4300034: door3
+    4300036: door2
+    4300038: door1
+    4300040: Base
+    4300042: Back
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: eb008496d046fa3429272f12d0006083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 6bb587a4854f40049a9c3ce4edb57f2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 15cd0a36cbb061c43b7b17bb6f2f8098, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: marble2
+    second: {fileID: 2800000, guid: f7c3bef4918a62e4cba93e0dbe449d1b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2800000, guid: d785803f2d5261f4fbefefbdb818e256, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
