@@ -156,13 +156,11 @@ namespace GoogleARCore.Examples.ObjectManipulation
             TrackableHit hit;
             TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon;
 
-             
-
            
                 if (Frame.Raycast(gesture.StartPosition.x, gesture.StartPosition.y, raycastFilter, out hit))
                 {
-                if (EventSystem.current.IsPointerOverGameObject())
-                    return;
+                if (!IsPointerOverUIObject())
+                {
                     // Use hit pose and camera pose to check if hittest is from the
                     // back of the plane, if it is, no need to create the anchor.
                     if ((hit.Trackable is DetectedPlane) &&
@@ -173,56 +171,65 @@ namespace GoogleARCore.Examples.ObjectManipulation
                     }
                     else
                     {
-                        
-                    if(index == 0)
-                    {
-                        prefab = Prefab1;
-                        realPrice = one;
+
+                        if (index == 0)
+                        {
+                            prefab = Prefab1;
+                            realPrice = one;
+
+                        }
+                        else if (index == 1)
+                        {
+                            prefab = Prefab2;
+                            realPrice = two;
+                        }
+                        else if (index == 2)
+                        {
+                            prefab = Prefab3;
+                            realPrice = three;
+                        }
+                        else
+                        {
+                            prefab = Prefab4;
+                            realPrice = four;
+                        }
+
+                        // Instantiate Andy model at the hit pose.
+                        var andyObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
+                        sceneObject.Add(andyObject);
+                        totalPrice.Add(realPrice);
+                        // Instantiate manipulator.
+                        var manipulator = Instantiate(ManipulatorPrefab, hit.Pose.position, hit.Pose.rotation);
+
+                        // Make Andy model a child of the manipulator.
+                        andyObject.transform.parent = manipulator.transform;
+
+                        // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
+                        // world evolves.
+                        var anchor = hit.Trackable.CreateAnchor(hit.Pose);
+
+                        // Make manipulator a child of the anchor.
+                        manipulator.transform.parent = anchor.transform;
+
+                        // Select the placed object.
+                        manipulator.GetComponent<Manipulator>().Select();
 
                     }
-                    else if( index == 1)
-                    {
-                        prefab = Prefab2;
-                        realPrice = two;
-                    }
-                    else if(index ==2)
-                    {
-                        prefab = Prefab3;
-                        realPrice = three;
-                    }
-                    else
-                    {
-                        prefab = Prefab4;
-                        realPrice = four;
-                    }
-                   
-                            // Instantiate Andy model at the hit pose.
-                            var andyObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
-                            sceneObject.Add(andyObject);
-                    totalPrice.Add(realPrice);
-                            // Instantiate manipulator.
-                            var manipulator = Instantiate(ManipulatorPrefab, hit.Pose.position, hit.Pose.rotation);
-
-                            // Make Andy model a child of the manipulator.
-                            andyObject.transform.parent = manipulator.transform;
-
-                            // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
-                            // world evolves.
-                            var anchor = hit.Trackable.CreateAnchor(hit.Pose);
-
-                            // Make manipulator a child of the anchor.
-                            manipulator.transform.parent = anchor.transform;
-
-                            // Select the placed object.
-                            manipulator.GetComponent<Manipulator>().Select();
-                        
-                    }
+                 }
                 }
-
-
             }
+
+        private bool IsPointerOverUIObject()
+        {
+            PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+            eventDataCurrentPosition.position = new Vector3(Input.mousePosition.x, Input.mousePosition.y, Input.mousePosition.z);
+            List<RaycastResult> results = new List<RaycastResult>();
+            EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+            return results.Count > 0;
+        }
+    }
         }
 
        
-    }
+    
 
