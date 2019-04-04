@@ -25,6 +25,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
     using System.Collections.Generic;
     using System.Linq;
     using UnityEngine;
+    using UnityEngine.EventSystems;
     using UnityEngine.UI;
 
     /// <summary>
@@ -155,10 +156,13 @@ namespace GoogleARCore.Examples.ObjectManipulation
             TrackableHit hit;
             TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon;
 
+             
 
            
                 if (Frame.Raycast(gesture.StartPosition.x, gesture.StartPosition.y, raycastFilter, out hit))
                 {
+                if (EventSystem.current.IsPointerOverGameObject())
+                    return;
                     // Use hit pose and camera pose to check if hittest is from the
                     // back of the plane, if it is, no need to create the anchor.
                     if ((hit.Trackable is DetectedPlane) &&
