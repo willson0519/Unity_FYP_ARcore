@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: 365c5b928b293fb4cb180a2fbcbf1d87
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body
+    100002: Cap_1
+    100004: Cap_1_2
+    100006: Cap_1_3
+    100008: Cap_1_4
+    100010: Cap_1_5
+    100012: Cap_1_6
+    100014: Cap_1_7
+    100016: Cap_2
+    100018: Cap_2_2
+    100020: Cap_2_3
+    100022: Cap_2_4
+    100024: Cap_2_5
+    100026: Cap_2_6
+    100028: Cap_2_7
+    100030: chrome
+    100032: CINEMA_4D_Editor
+    100034: Cube
+    100036: cube
+    100038: Cube_1
+    100040: Cube_10
+    100042: Cube_1_2
+    100044: Cube_2
+    100046: Cube_3
+    100048: Cube_4
+    100050: Cube_5
+    100052: Cube_6
+    100054: Cube_Instance
+    100056: Cube_Instance_1
+    100058: Cube_Instance_2
+    100060: Cube_Instance_3
+    100062: Cube_Instance_4
+    100064: Cylinder
+    100066: Cylinder_1
+    100068: DB_Apps&Tech_04_13
+    100070: Divida_90_3
+    100072: domapki_1
+    100074: Filtr
+    100076: filtr
+    100078: Filtr_1
+    100080: filtr_2
+    100082: filtr_frame
+    100084: filtr_frame_2
+    100086: Flitry
+    100088: glass
+    100090: //RootNode
+    100092: komin_1
+    100094: komin_2_Cube_0_1
+    100096: lajt
+    100098: LCD
+    100100: Plane_1
+    100102: Plane_1_2
+    100104: Raczka
+    100106: Raczka_2
+    100108: ramki
+    100110: ramki_1
+    100112: ramki_2
+    100114: ramki_3
+    100116: ramki_4
+    100118: ramki_5
+    100120: ramki_6
+    100122: ramki_7
+    100124: ramki_Instance
+    100126: ramki_Instance_1
+    100128: ramki_Instance_2
+    100130: ramki_Instance_3
+    100132: ramki_Instance_4
+    100134: Rounding_1
+    100136: Rounding_1_2
+    100138: Rounding_1_3
+    100140: Rounding_1_4
+    100142: Rounding_1_5
+    100144: Rounding_1_6
+    100146: Rounding_1_7
+    100148: Rounding_2
+    100150: Rounding_2_2
+    100152: Rounding_2_3
+    100154: Rounding_2_4
+    100156: Rounding_2_5
+    100158: Rounding_2_6
+    100160: Rounding_2_7
+    100162: Sensor
+    100164: Sterowanie___przyciski
+    100166: szyba
+    100168: szyba_2
+    100170: szybka
+    100172: "\u017Bar\xF3wki"
+    100174: "\u017Car\xF3ka"
+    400000: Body
+    400002: Cap_1
+    400004: Cap_1_2
+    400006: Cap_1_3
+    400008: Cap_1_4
+    400010: Cap_1_5
+    400012: Cap_1_6
+    400014: Cap_1_7
+    400016: Cap_2
+    400018: Cap_2_2
+    400020: Cap_2_3
+    400022: Cap_2_4
+    400024: Cap_2_5
+    400026: Cap_2_6
+    400028: Cap_2_7
+    400030: chrome
+    400032: CINEMA_4D_Editor
+    400034: Cube
+    400036: cube
+    400038: Cube_1
+    400040: Cube_10
+    400042: Cube_1_2
+    400044: Cube_2
+    400046: Cube_3
+    400048: Cube_4
+    400050: Cube_5
+    400052: Cube_6
+    400054: Cube_Instance
+    400056: Cube_Instance_1
+    400058: Cube_Instance_2
+    400060: Cube_Instance_3
+    400062: Cube_Instance_4
+    400064: Cylinder
+    400066: Cylinder_1
+    400068: DB_Apps&Tech_04_13
+    400070: Divida_90_3
+    400072: domapki_1
+    400074: Filtr
+    400076: filtr
+    400078: Filtr_1
+    400080: filtr_2
+    400082: filtr_frame
+    400084: filtr_frame_2
+    400086: Flitry
+    400088: glass
+    400090: //RootNode
+    400092: komin_1
+    400094: komin_2_Cube_0_1
+    400096: lajt
+    400098: LCD
+    400100: Plane_1
+    400102: Plane_1_2
+    400104: Raczka
+    400106: Raczka_2
+    400108: ramki
+    400110: ramki_1
+    400112: ramki_2
+    400114: ramki_3
+    400116: ramki_4
+    400118: ramki_5
+    400120: ramki_6
+    400122: ramki_7
+    400124: ramki_Instance
+    400126: ramki_Instance_1
+    400128: ramki_Instance_2
+    400130: ramki_Instance_3
+    400132: ramki_Instance_4
+    400134: Rounding_1
+    400136: Rounding_1_2
+    400138: Rounding_1_3
+    400140: Rounding_1_4
+    400142: Rounding_1_5
+    400144: Rounding_1_6
+    400146: Rounding_1_7
+    400148: Rounding_2
+    400150: Rounding_2_2
+    400152: Rounding_2_3
+    400154: Rounding_2_4
+    400156: Rounding_2_5
+    400158: Rounding_2_6
+    400160: Rounding_2_7
+    400162: Sensor
+    400164: Sterowanie___przyciski
+    400166: szyba
+    400168: szyba_2
+    400170: szybka
+    400172: "\u017Bar\xF3wki"
+    400174: "\u017Car\xF3ka"
+    2000000: CINEMA_4D_Editor
+    2100000: DB_Apps&Tech_04_13_02
+    2100002: DB_Apps&Tech_04_13_03
+    2100004: DB_Apps&Tech_04_13_04
+    2100006: DB_Apps&Tech_04_13_05
+    2100008: DB_Apps&Tech_04_13_06
+    2100010: DB_Apps&Tech_04_13_07
+    2100012: DB_Apps&Tech_04_13_08
+    2100014: DB_Apps&Tech_04_13_09
+    2100016: DB_Apps&Tech_04_13_10
+    2100018: DB_Apps&Tech_04_13_11
+    2100020: wyswietlacz
+    2100022: Glass
+    2100024: Plastic Green - Med Roughness
+    2100026: Plastic Black - High Roughness
+    2100028: Metal - Brushed.1
+    2100030: filtr
+    2100032: Metal - Brushed.3
+    2100034: filtr.1
+    2100036: Chrome
+    2100038: Mat
+    2100040: Glass.1
+    2100042: 02 - Default
+    2100044: Metal - Brushed.5
+    2100046: Metal - Brushed.6
+    2100048: Metal - Brushed.7
+    2100050: Plastic Green - Glossy
+    2100052: 01 - Default
+    2300000: Cap_1
+    2300002: Cap_1_2
+    2300004: Cap_1_3
+    2300006: Cap_1_4
+    2300008: Cap_1_5
+    2300010: Cap_1_6
+    2300012: Cap_1_7
+    2300014: Cap_2
+    2300016: Cap_2_2
+    2300018: Cap_2_3
+    2300020: Cap_2_4
+    2300022: Cap_2_5
+    2300024: Cap_2_6
+    2300026: Cap_2_7
+    2300028: chrome
+    2300030: Cube
+    2300032: Cube_1
+    2300034: Cube_10
+    2300036: Cube_1_2
+    2300038: Cube_2
+    2300040: Cube_3
+    2300042: Cube_4
+    2300044: Cube_5
+    2300046: Cube_6
+    2300048: Cylinder
+    2300050: Cylinder_1
+    2300052: DB_Apps&Tech_04_13
+    2300054: domapki_1
+    2300056: filtr
+    2300058: filtr_2
+    2300060: filtr_frame
+    2300062: filtr_frame_2
+    2300064: glass
+    2300066: komin_1
+    2300068: komin_2_Cube_0_1
+    2300070: lajt
+    2300072: LCD
+    2300074: Plane_1
+    2300076: Plane_1_2
+    2300078: ramki
+    2300080: ramki_1
+    2300082: ramki_2
+    2300084: ramki_3
+    2300086: ramki_4
+    2300088: ramki_5
+    2300090: ramki_7
+    2300092: Rounding_1
+    2300094: Rounding_1_2
+    2300096: Rounding_1_3
+    2300098: Rounding_1_4
+    2300100: Rounding_1_5
+    2300102: Rounding_1_6
+    2300104: Rounding_1_7
+    2300106: Rounding_2
+    2300108: Rounding_2_2
+    2300110: Rounding_2_3
+    2300112: Rounding_2_4
+    2300114: Rounding_2_5
+    2300116: Rounding_2_6
+    2300118: Rounding_2_7
+    2300120: Sensor
+    2300122: szyba
+    2300124: szyba_2
+    2300126: szybka
+    3300000: Cap_1
+    3300002: Cap_1_2
+    3300004: Cap_1_3
+    3300006: Cap_1_4
+    3300008: Cap_1_5
+    3300010: Cap_1_6
+    3300012: Cap_1_7
+    3300014: Cap_2
+    3300016: Cap_2_2
+    3300018: Cap_2_3
+    3300020: Cap_2_4
+    3300022: Cap_2_5
+    3300024: Cap_2_6
+    3300026: Cap_2_7
+    3300028: chrome
+    3300030: Cube
+    3300032: Cube_1
+    3300034: Cube_10
+    3300036: Cube_1_2
+    3300038: Cube_2
+    3300040: Cube_3
+    3300042: Cube_4
+    3300044: Cube_5
+    3300046: Cube_6
+    3300048: Cylinder
+    3300050: Cylinder_1
+    3300052: DB_Apps&Tech_04_13
+    3300054: domapki_1
+    3300056: filtr
+    3300058: filtr_2
+    3300060: filtr_frame
+    3300062: filtr_frame_2
+    3300064: glass
+    3300066: komin_1
+    3300068: komin_2_Cube_0_1
+    3300070: lajt
+    3300072: LCD
+    3300074: Plane_1
+    3300076: Plane_1_2
+    3300078: ramki
+    3300080: ramki_1
+    3300082: ramki_2
+    3300084: ramki_3
+    3300086: ramki_4
+    3300088: ramki_5
+    3300090: ramki_7
+    3300092: Rounding_1
+    3300094: Rounding_1_2
+    3300096: Rounding_1_3
+    3300098: Rounding_1_4
+    3300100: Rounding_1_5
+    3300102: Rounding_1_6
+    3300104: Rounding_1_7
+    3300106: Rounding_2
+    3300108: Rounding_2_2
+    3300110: Rounding_2_3
+    3300112: Rounding_2_4
+    3300114: Rounding_2_5
+    3300116: Rounding_2_6
+    3300118: Rounding_2_7
+    3300120: Sensor
+    3300122: szyba
+    3300124: szyba_2
+    3300126: szybka
+    4300000: DB_Apps&Tech_04_13
+    4300002: LCD
+    4300004: szybka
+    4300006: ramki_1
+    4300008: Rounding_1
+    4300010: Cap_1
+    4300012: Rounding_2
+    4300014: Cap_2
+    4300016: Cube
+    4300018: Cube_2
+    4300020: Cube_3
+    4300022: Cube_4
+    4300024: Cube_5
+    4300026: Cube_6
+    4300028: ramki
+    4300030: Rounding_1_2
+    4300032: Cap_1_2
+    4300034: Rounding_2_2
+    4300036: Cap_2_2
+    4300038: ramki_2
+    4300040: Rounding_1_3
+    4300042: Cap_1_3
+    4300044: Rounding_2_3
+    4300046: Cap_2_3
+    4300048: ramki_3
+    4300050: Rounding_1_4
+    4300052: Cap_1_4
+    4300054: Rounding_2_4
+    4300056: Cap_2_4
+    4300058: ramki_4
+    4300060: Rounding_1_5
+    4300062: Cap_1_5
+    4300064: Rounding_2_5
+    4300066: Cap_2_5
+    4300068: ramki_5
+    4300070: Rounding_1_6
+    4300072: Cap_1_6
+    4300074: Rounding_2_6
+    4300076: Cap_2_6
+    4300078: ramki_7
+    4300080: Rounding_1_7
+    4300082: Cap_1_7
+    4300084: Rounding_2_7
+    4300086: Cap_2_7
+    4300088: Cube_1
+    4300090: Plane_1
+    4300092: filtr_frame
+    4300094: filtr
+    4300096: Cube_1_2
+    4300098: Plane_1_2
+    4300100: filtr_frame_2
+    4300102: filtr_2
+    4300104: chrome
+    4300106: lajt
+    4300108: glass
+    4300110: domapki_1
+    4300112: Cylinder
+    4300114: Cylinder_1
+    4300116: Cube_10
+    4300118: Sensor
+    4300120: szyba
+    4300122: komin_2_Cube_0_1
+    4300124: komin_1
+    4300126: szyba_2
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: a511eedf36c06e343a69294b48c096ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: e1ecc163a74244c4993f344df47f4199, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome
+    second: {fileID: 2100000, guid: 956f57cc660a37940a7e8e5ec42bce87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_02
+    second: {fileID: 2100000, guid: 3fda459f5c49aee4e916622d78148ad6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_03
+    second: {fileID: 2100000, guid: 312bc9c9beef1fb41b88f9760e95cd9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_04
+    second: {fileID: 2100000, guid: df429167991c3ea47849352ced51e29f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_05
+    second: {fileID: 2100000, guid: ec8ab621fd2c87847aca6502ea6b2fea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_06
+    second: {fileID: 2100000, guid: 3b2d239b1c345d14ba95825dc0200fcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_07
+    second: {fileID: 2100000, guid: 4fb81527bcaa1cc4fab8c955d48a0d40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_08
+    second: {fileID: 2100000, guid: f2aeabcac84da114cae94d3ae8a1c8df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_09
+    second: {fileID: 2100000, guid: cef7d68f95f89e949bc4b343a34b7ec3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_10
+    second: {fileID: 2100000, guid: f57f07b47a9261b49aa1d138702f9953, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_11
+    second: {fileID: 2100000, guid: 631f0a2491226894092a06b8830514c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 632ba183b514d2b41a696daca16feff9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass.1
+    second: {fileID: 2100000, guid: 7cecbe7ccc0432e4386c7740f4fd34ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat
+    second: {fileID: 2100000, guid: 60a4e3762d367ce46bc5ab3ba1abb8f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Brushed.1
+    second: {fileID: 2100000, guid: 691e0eeb3337dd047b8057e8069e74c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Brushed.3
+    second: {fileID: 2100000, guid: cf78b180c2791df429a1dae35d1f1d11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Brushed.5
+    second: {fileID: 2100000, guid: 39dbf1561c89cde46ba1e71117ea9696, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Brushed.6
+    second: {fileID: 2100000, guid: cbd54a988405d994e9cbc84e3ec047d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Brushed.7
+    second: {fileID: 2100000, guid: 2d689896dfcda1f4895f0f6bc2c9b0bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic Black - High Roughness
+    second: {fileID: 2100000, guid: 7ddc4bc444155324b8fc50efc1939722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic Green - Glossy
+    second: {fileID: 2100000, guid: 97c07b1216dd946439058331dce27cb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic Green - Med Roughness
+    second: {fileID: 2100000, guid: 23195cc7f26dc78438c89194c7ccb0b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: filtr
+    second: {fileID: 2100000, guid: 1cfa21a4c0eeca9488a4c7d4c703d809, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: filtr.1
+    second: {fileID: 2100000, guid: 6686bff04a6f6084cbf584a4f8031572, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wyswietlacz
+    second: {fileID: 2100000, guid: 0f5e04c1d5549bc4da65bd13aed9a92f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_01
+    second: {fileID: 2800000, guid: 4770c2a9b089aa94da0e1ea62905cc4d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_02
+    second: {fileID: 2800000, guid: 41c0701e17ee8d74ea9a2b01e30e2fb9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DB_Apps&Tech_04_13_03
+    second: {fileID: 2800000, guid: 025bc6dc71cc14b488836ad6f7fbc9a0, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
