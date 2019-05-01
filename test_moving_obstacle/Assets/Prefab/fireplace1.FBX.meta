@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: 43d284f9cfb8a5d43848c255b42b6ffd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 13110_fireplace_base
+    100002: 13110_fireplace_bricks
+    100004: 13110_fireplace_fire
+    100006: 13110_fireplace_middle
+    100008: 13110_fireplace_top
+    100010: 13110_fireplace_underfire
+    100012: 13110_fireplace_underfirelegs
+    100014: 13110_fireplace_woods_01
+    100016: 13110_fireplace_woods_02
+    100018: 13110_fireplace_woods_03
+    100020: 13110_fireplace_woods_04
+    100022: 13110_fireplace_woods_05
+    100024: 13110_fireplace_woodsburn_01
+    100026: 13110_fireplace_woodsburn_02
+    100028: 13110_fireplace_woodsburn_03
+    100030: 13110_fireplace_woodsburn_04
+    100032: 13110_fireplace_woodsburn_05
+    100034: //RootNode
+    400000: 13110_fireplace_base
+    400002: 13110_fireplace_bricks
+    400004: 13110_fireplace_fire
+    400006: 13110_fireplace_middle
+    400008: 13110_fireplace_top
+    400010: 13110_fireplace_underfire
+    400012: 13110_fireplace_underfirelegs
+    400014: 13110_fireplace_woods_01
+    400016: 13110_fireplace_woods_02
+    400018: 13110_fireplace_woods_03
+    400020: 13110_fireplace_woods_04
+    400022: 13110_fireplace_woods_05
+    400024: 13110_fireplace_woodsburn_01
+    400026: 13110_fireplace_woodsburn_02
+    400028: 13110_fireplace_woodsburn_03
+    400030: 13110_fireplace_woodsburn_04
+    400032: 13110_fireplace_woodsburn_05
+    400034: //RootNode
+    2100000: 13110_fireplace_marblewhite
+    2100002: 13110_fireplace_marblegreen
+    2100004: 13110_fireplace_base
+    2100006: 13110_fireplace_woodsburn
+    2100008: 13110_fireplace_woods
+    2100010: 13110_fireplace_fire
+    2100012: 13110_fireplace_metal
+    2300000: 13110_fireplace_base
+    2300002: 13110_fireplace_bricks
+    2300004: 13110_fireplace_fire
+    2300006: 13110_fireplace_middle
+    2300008: 13110_fireplace_top
+    2300010: 13110_fireplace_underfire
+    2300012: 13110_fireplace_underfirelegs
+    2300014: 13110_fireplace_woods_01
+    2300016: 13110_fireplace_woods_02
+    2300018: 13110_fireplace_woods_03
+    2300020: 13110_fireplace_woods_04
+    2300022: 13110_fireplace_woods_05
+    2300024: 13110_fireplace_woodsburn_01
+    2300026: 13110_fireplace_woodsburn_02
+    2300028: 13110_fireplace_woodsburn_03
+    2300030: 13110_fireplace_woodsburn_04
+    2300032: 13110_fireplace_woodsburn_05
+    3300000: 13110_fireplace_base
+    3300002: 13110_fireplace_bricks
+    3300004: 13110_fireplace_fire
+    3300006: 13110_fireplace_middle
+    3300008: 13110_fireplace_top
+    3300010: 13110_fireplace_underfire
+    3300012: 13110_fireplace_underfirelegs
+    3300014: 13110_fireplace_woods_01
+    3300016: 13110_fireplace_woods_02
+    3300018: 13110_fireplace_woods_03
+    3300020: 13110_fireplace_woods_04
+    3300022: 13110_fireplace_woods_05
+    3300024: 13110_fireplace_woodsburn_01
+    3300026: 13110_fireplace_woodsburn_02
+    3300028: 13110_fireplace_woodsburn_03
+    3300030: 13110_fireplace_woodsburn_04
+    3300032: 13110_fireplace_woodsburn_05
+    4300000: 13110_fireplace_top
+    4300002: 13110_fireplace_middle
+    4300004: 13110_fireplace_bricks
+    4300006: 13110_fireplace_base
+    4300008: 13110_fireplace_woodsburn_01
+    4300010: 13110_fireplace_woodsburn_05
+    4300012: 13110_fireplace_woodsburn_03
+    4300014: 13110_fireplace_woodsburn_02
+    4300016: 13110_fireplace_woodsburn_04
+    4300018: 13110_fireplace_woods_01
+    4300020: 13110_fireplace_woods_03
+    4300022: 13110_fireplace_woods_02
+    4300024: 13110_fireplace_woods_05
+    4300026: 13110_fireplace_woods_04
+    4300028: 13110_fireplace_fire
+    4300030: 13110_fireplace_underfire
+    4300032: 13110_fireplace_underfirelegs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_base
+    second: {fileID: 2100000, guid: 8c1359619ad8f5f40839f4854fadb4d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_fire
+    second: {fileID: 2100000, guid: e581c4185f382f24cb14666f3b0bcfa0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_marblegreen
+    second: {fileID: 2100000, guid: 089baf606c522bb4083b12d15b258ab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_marblewhite
+    second: {fileID: 2100000, guid: 01a0d7174da8bed44ac687ddbb9339d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_metal
+    second: {fileID: 2100000, guid: 2223e00dbf264a9469b42b1ae8aa7f53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_woods
+    second: {fileID: 2100000, guid: f89d0ebf9c6b967448c5f3c47e55b6d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_woodsburn
+    second: {fileID: 2100000, guid: 33165902eff68d0479095ece95e5977c, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_base_diffuse
+    second: {fileID: 2800000, guid: 44505fc8db3332c4bb1350648a25ce51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_fire_diffuse
+    second: {fileID: 2800000, guid: 165a72c28b0c8ed40b2f586cb3f88c6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_fire_selfillum
+    second: {fileID: 2800000, guid: 057beb027a00ea7488b6d42bdb12c345, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_marbleg_diffuse
+    second: {fileID: 2800000, guid: 24a2145a57bd6eb449f6f8ead66f95a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_marblew_diffuse
+    second: {fileID: 2800000, guid: 24bee07fe7eb6064593dab3c48c87c77, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_metals_diffuse
+    second: {fileID: 2800000, guid: 61205566200018e4a8ef2aba5c9b832b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_woods_diffuse
+    second: {fileID: 2800000, guid: a2f433e519e356640a3d11db8a1d8ddf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 13110_fireplace_woodsburne_diffuse
+    second: {fileID: 2800000, guid: 4714b30958a8c654994e97a88826ce00, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

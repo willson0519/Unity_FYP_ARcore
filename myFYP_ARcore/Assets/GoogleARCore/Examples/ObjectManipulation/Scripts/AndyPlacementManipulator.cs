@@ -45,6 +45,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
         public GameObject Prefab2;
         public GameObject Prefab3;
         public GameObject Prefab4;
+        public GameObject Prefab5;
 
         /// <summary>
         /// Manipulator prefab to attach placed objects to.
@@ -63,6 +64,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
         float two = 649.99f;
         float three = 150.00f;
         float four = 250.00f;
+        float five = 350.00f;
 
         float total =0;
         public Text TPrice;
@@ -75,6 +77,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
             myPrefab.Add(Prefab2);
             myPrefab.Add(Prefab3);
             myPrefab.Add(Prefab4);
+            myPrefab.Add(Prefab5);
 
         
 
@@ -100,6 +103,10 @@ namespace GoogleARCore.Examples.ObjectManipulation
         {
             index = myPrefab.IndexOf(Prefab4);
         }
+        public void fifthClicked()
+        {
+            index = myPrefab.IndexOf(Prefab5);
+        }
 
 
         public void ClearScene()
@@ -110,6 +117,21 @@ namespace GoogleARCore.Examples.ObjectManipulation
             }
             sceneObject.Clear();
             totalPrice.Clear();
+            total = totalPrice.Sum();
+            TPrice.text = "RM " + total.ToString();
+        }
+
+        public void Undo()
+        {
+          
+                GameObject undoobj = sceneObject[sceneObject.Count - 1];
+                  sceneObject.RemoveAt(sceneObject.Count - 1);
+            totalPrice.RemoveAt(totalPrice.Count - 1);
+                Destroy(undoobj);
+            total = totalPrice.Sum();
+            TPrice.text = "RM " + total.ToString();
+
+
         }
 
         public void countPrice()
@@ -188,16 +210,23 @@ namespace GoogleARCore.Examples.ObjectManipulation
                             prefab = Prefab3;
                             realPrice = three;
                         }
-                        else
+                        else if(index == 3)
                         {
                             prefab = Prefab4;
                             realPrice = four;
+                        }
+                        else
+                        {
+                            prefab = Prefab5;
+                            realPrice = five;
                         }
 
                         // Instantiate Andy model at the hit pose.
                         var andyObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
                         sceneObject.Add(andyObject);
                         totalPrice.Add(realPrice);
+                        total = totalPrice.Sum();
+                        TPrice.text = "RM " + total.ToString();
                         // Instantiate manipulator.
                         var manipulator = Instantiate(ManipulatorPrefab, hit.Pose.position, hit.Pose.rotation);
 

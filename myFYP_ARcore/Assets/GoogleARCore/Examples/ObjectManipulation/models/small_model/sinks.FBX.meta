@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: b27e7ac1a161924439c5cdbbd400cf04
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: "Bat\xE9ria Geos"
+    100002: body_cabinet
+    100004: Box01
+    100006: Box02
+    100008: Box03
+    100010: ChamferCyl01
+    100012: ChamferCyl03
+    100014: ChamferCyl04
+    100016: ChamferCyl06
+    100018: Circle01
+    100020: Circle02
+    100022: "Drez nerezov\xFD 80x50"
+    100024: handles
+    100026: Line02
+    100028: Odtok
+    100030: Simple sink 50 x 80
+    100032: //RootNode
+    100034: Sphere01
+    100036: Telo drezu
+    100038: top
+    400000: "Bat\xE9ria Geos"
+    400002: body_cabinet
+    400004: Box01
+    400006: Box02
+    400008: Box03
+    400010: ChamferCyl01
+    400012: ChamferCyl03
+    400014: ChamferCyl04
+    400016: ChamferCyl06
+    400018: Circle01
+    400020: Circle02
+    400022: "Drez nerezov\xFD 80x50"
+    400024: handles
+    400026: Line02
+    400028: Odtok
+    400030: Simple sink 50 x 80
+    400032: //RootNode
+    400034: Sphere01
+    400036: Telo drezu
+    400038: top
+    2100000: No Name
+    2100002: 03 - Default
+    2100004: 01 - Default
+    2100006: 02 - Default
+    2300000: body_cabinet
+    2300002: Box01
+    2300004: Box02
+    2300006: Box03
+    2300008: ChamferCyl01
+    2300010: ChamferCyl03
+    2300012: ChamferCyl04
+    2300014: ChamferCyl06
+    2300016: Circle01
+    2300018: Circle02
+    2300020: handles
+    2300022: Line02
+    2300024: Sphere01
+    2300026: Telo drezu
+    2300028: top
+    3300000: body_cabinet
+    3300002: Box01
+    3300004: Box02
+    3300006: Box03
+    3300008: ChamferCyl01
+    3300010: ChamferCyl03
+    3300012: ChamferCyl04
+    3300014: ChamferCyl06
+    3300016: Circle01
+    3300018: Circle02
+    3300020: handles
+    3300022: Line02
+    3300024: Sphere01
+    3300026: Telo drezu
+    3300028: top
+    4300000: Circle02
+    4300002: Box01
+    4300004: Box02
+    4300006: Box03
+    4300008: Circle01
+    4300010: Telo drezu
+    4300012: ChamferCyl03
+    4300014: Line02
+    4300016: Sphere01
+    4300018: ChamferCyl01
+    4300020: ChamferCyl06
+    4300022: ChamferCyl04
+    4300024: body_cabinet
+    4300026: handles
+    4300028: top
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 0d988a63e22a85d45a48b26a1a0896c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: fd4b72d4724e7de48bf3caa2af1df2c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 46b29205de40edb41a9615155495f7b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 8c9cde53f9a2d234eb510d200861e70c, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: marble2
+    second: {fileID: 2800000, guid: 0aca19b5f58deb34497a64d96e89c87b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2800000, guid: 6ce3e16b7333de946bb35f7d79d106ff, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.024999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

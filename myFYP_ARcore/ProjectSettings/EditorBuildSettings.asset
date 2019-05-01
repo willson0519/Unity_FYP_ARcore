@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/updateFYP/arscene1.unity
     guid: 186b29d22dedf334e8ee2b406e96fb12
+  - enabled: 0
+    path: Assets/updateFYP/gallery.unity
+    guid: 2720fce5ed6099748819e6c9a9702b74
+  - enabled: 0
+    path: Assets/updateFYP/arscene2.unity
+    guid: eed6d4799f3405e45b96f125d819e7db
   m_configObjects: {}
